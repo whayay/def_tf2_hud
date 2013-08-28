@@ -22,7 +22,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 0"
+			"bgcolor_override"	"117 107 94 255"
 		}
 		"AvatarImage"
 		{
@@ -37,14 +37,13 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"227 227 227 255"
+			"color_outline"	"52 48 45 255"
 		}
 		"UserName"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UserName"
 			"font"			"HudFontSmallestBold"
-            "fgcolor_override" "White"
 			"labelText"		"%username%"
 			"textAlignment"	"west"
 			"xpos"			"25"

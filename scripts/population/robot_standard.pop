@@ -1,8 +1,6 @@
 // -- These attributes must attached to a weapon using ItemAttributes and then ItemName --
 
 // "Blast radius decreased"
-// "Projectile speed increased"
-// "Projectile speed increased HIDDEN"
 // "Reload time decreased"
 // "airblast pushback scale"
 // "arrow mastery"
@@ -410,9 +408,12 @@ WaveSchedule
 				ItemName "The Scorch Shot"
 				"damage bonus"	1
 				"fire rate bonus" 0.75
-				"faster reload rate" 1.25
-				"Projectile speed increased" 0.35
+				"faster reload rate" 1.25				
 			}				
+			CharacterAttributes
+			{
+				"Projectile speed increased" 0.35
+			}
 		}	
 		
 

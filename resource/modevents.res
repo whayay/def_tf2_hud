@@ -1037,6 +1037,26 @@
 		"assister_fallback"	"string"	// contains a string to use if "assister" is -1
 	}
 	
+	// clone of "player_death" with added counts
+	"throwable_hit"
+	{
+		"userid"	"short"   	// user ID who died				
+		"victim_entindex"	"long"
+		"inflictor_entindex"	"long"	// ent index of inflictor (a sentry, for example)
+		"attacker"	"short"	 	// user ID who killed
+		"weapon"	"string" 	// weapon name killer used 
+		"weaponid"	"short"		// ID of weapon killed used
+		"damagebits"	"long"		// bits of type of damage
+		"customkill"	"short"		// type of custom kill
+		"assister"	"short"		// user ID of assister
+		"weapon_logclassname"	"string" 	// weapon name that should be printed on the log
+		"stun_flags"	"short"	// victim's stun flags at the moment of death
+		"death_flags"	"short" //death flags.
+		"silent_kill"	"bool"
+		"assister_fallback"	"string"	// contains a string to use if "assister" is -1
+		"totalhits"		"short"	// Number of hits his player has done
+	}
+
 	"pumpkin_lord_summoned"
 	{
 	}
