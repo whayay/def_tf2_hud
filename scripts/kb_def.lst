@@ -45,6 +45,7 @@
 "F5"			"screenshot"
 "F6"			"save_replay"
 "F7"			"abuse_report_queue"
+"F9"			"vr_toggle"
 "F10"			"quit prompt"
 "PAUSE"			"pause"
 "ESCAPE"		"escape"

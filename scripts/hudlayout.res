@@ -237,6 +237,7 @@
 		"PaintBackgroundType"	"2"
 	}
 	
+	
 	DisguiseStatus
 	{
 		"fieldName" "DisguiseStatus"
@@ -576,9 +577,24 @@
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
-
 	}
 
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"130"
+		"ypos"			"r61"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
+	
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
@@ -846,9 +862,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"255"
+		"ypos"					"215"
 		"wide"					"300"
-		"tall"					"215"
+		"tall"					"300"
 	}
 
 	ArenaWinPanel
@@ -1337,5 +1353,19 @@
 		"ypos"			"100"
 		"wide"			"320"
 		"tall"			"150"
+	}
+
+
+	"CTFKillStreakNotice"
+	{
+		"fieldName"		"CTFKillStreakNotice"
+		"xpos"			"0"			
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
 	}
 }

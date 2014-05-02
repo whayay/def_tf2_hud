@@ -45,26 +45,6 @@
 	{
 		scene "scenes/player/pyro/low/taunt06.vcd"
 	}
-	response "PyroTauntHighFiveSuccess"
-	{
-		scene "scenes/player/pyro/low/taunt_highfiveSuccess.vcd"
-	}
-	response "PyroTauntHighFiveSuccessFull"
-	{
-		scene "scenes/player/pyro/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "PyroTauntHighFiveFail"
-	{
-		scene "scenes/player/pyro/low/taunt_HighFiveFail.vcd"
-	}
-	response "PyroTauntHighFiveFailFull"
-	{
-		scene "scenes/player/pyro/low/taunt_HighFiveFailFull.vcd"
-	}
-	response "PyroHighFiveReady"
-	{
-		scene "scenes/player/pyro/low/taunt_hifivestart.vcd"
-	}
 
 	rule PyroTauntPlayerPrimary
 	{
@@ -105,31 +85,6 @@
 	{
 		criteria ConceptPlayerTaunt IsPyro IsHalloweenTaunt
 		response PyroTauntHalloween
-	}
-	rule PyroTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsPyro
-		response PyroTauntHighFiveSuccess
-	}
-	rule PyroTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsPyro
-		response PyroTauntHighFiveSuccessFull
-	}
-	rule PyroTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsPyro
-		response PyroTauntHighFiveFail
-	}
-	rule PyroTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsPyro
-		response PyroTauntHighFiveFailFull
-	}
-	rule PyroHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsPyro
-		response PyroHighFiveReady
 	}
 
 	Response "PyroTauntThirdDegree"
@@ -212,26 +167,6 @@
 	{
 		scene "scenes/player/heavy/low/taunt07_halloween.vcd"
 	}
-	response "HeavyTauntHighFiveSuccess"
-	{
-		scene "scenes/player/heavy/low/taunt_highfiveSuccess.vcd"
-	}
-	response "HeavyTauntHighFiveSuccessFull"
-	{
-		scene "scenes/player/heavy/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "HeavyTauntHighFiveFail"
-	{
-		scene "scenes/player/heavy/low/taunt_HiFiveFail.vcd"
-	}
-	response "HeavyTauntHighFiveFailFull"
-	{
-		scene "scenes/player/heavy/low/taunt_HiFiveFailFull.vcd"
-	}
-	response "HeavyHighFiveReady"
-	{
-		scene "scenes/player/heavy/low/taunt_hifivestart.vcd"
-	}
 
 	rule HeavyTauntPlayerPrimary
 	{
@@ -300,31 +235,6 @@
 	{
 		criteria ConceptPlayerTaunt IsHeavy IsFrankenHeavy
 		response HeavyTauntFrankenHeavy
-	}
-	rule HeavyTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsHeavy
-		response HeavyTauntHighFiveSuccess
-	}
-	rule HeavyTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsHeavy
-		response HeavyTauntHighFiveSuccessFull
-	}
-	rule HeavyTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsHeavy
-		response HeavyTauntHighFiveFail
-	}
-	rule HeavyTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsHeavy
-		response HeavyTauntHighFiveFailFull
-	}
-	rule HeavyHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsHeavy
-		response HeavyHighFiveReady
 	}
 			
 	Response PlayerExpressionIdleHeavy
@@ -401,23 +311,23 @@
 	//--------------------------------------------------------------------------------------------------------------
 	Response AteSandwichHeavy
 	{
-		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt03.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt04.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt05.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt06.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt07.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt08.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt09.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt10.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt11.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt12.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt13.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt15.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt16.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" predelay "1.0"  
+		scene "scenes/Player/Heavy/low/SandwichTaunt03.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt04.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt05.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt06.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt07.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt08.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt09.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt10.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt11.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt12.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt13.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt15.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt16.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" predelay "1.0" 
 	}
 	Rule AteSandwichHeavy
 	{
@@ -429,6 +339,11 @@
 		criteria ConceptAteFood IsHeavy WeaponIsRobotSandvich
 		Response AteSandwichHeavy
 	}
+	Rule AteFestiveSandwichHeavy
+	{
+		criteria ConceptAteFood IsHeavy WeaponIsFestiveSandvich
+		Response AteSandwichHeavy
+	}
 	// Custom stuff
 	// These have been designed as separate responses so that I can add non-sandvich lines I wanted to.
 	// There are two examples of this in the AteChocoHeavy response.
@@ -436,10 +351,10 @@
 	// The IsWeaponMelee allows this to happen, creating a distinction between the choco bar, sandvich and the steak.
 	Response AteSteakHeavy
 	{
-		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd"
-		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd"
-		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" predelay "1.0" 
 	}
 	Rule AteSteakHeavy
 	{
@@ -448,12 +363,12 @@
 	}
 	Response AteChocoHeavy
 	{
-		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd"
-		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd"
-		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd"
-		scene "scenes/Player/Heavy/low/2066.vcd"
-		scene "scenes/Player/Heavy/low/2260.vcd" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/2066.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/2260.vcd" predelay "1.0" 
 	}
 	Rule AteChocoHeavy
 	{
@@ -496,26 +411,6 @@
 	{
 		scene "scenes/player/engineer/low/taunt09.vcd"
 	}
-	response "EngineerTauntHighFiveSuccess"
-	{
-		scene "scenes/player/engineer/low/taunt_highfiveSuccess.vcd"
-	}
-	response "EngineerTauntHighFiveSuccessFull"
-	{
-		scene "scenes/player/engineer/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "EngineerTauntHighFiveFail"
-	{
-		scene "scenes/player/engineer/low/taunt_HiFiveFail.vcd"
-	}
-	response "EngineerTauntHighFiveFailFull"
-	{
-		scene "scenes/player/engineer/low/taunt_HiFiveFailFull.vcd"
-	}
-	response "EngineerHighFiveReady"
-	{
-		scene "scenes/player/engineer/low/taunt_hifivestart.vcd"
-	}
 
 	rule EngineerTauntPlayerPrimary
 	{
@@ -530,6 +425,11 @@
 	rule EngineerTauntPlayerMelee
 	{
 		criteria ConceptPlayerTaunt IsEngineer WeaponIsWrench
+		response EngineerTauntMelee
+	}
+	rule EngineerTauntPlayerShortCircuit
+	{
+		criteria ConceptPlayerTaunt IsEngineer WeaponIsShortCircuit
 		response EngineerTauntMelee
 	}
 	rule EngineerTauntGuitar
@@ -556,31 +456,6 @@
 	{
 		criteria ConceptPlayerTaunt IsEngineer IsHalloweenTaunt
 		response EngineerTauntHalloween
-	}
-	rule EngineerTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsEngineer
-		response EngineerTauntHighFiveSuccess
-	}
-	rule EngineerTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsEngineer
-		response EngineerTauntHighFiveSuccessFull
-	}
-	rule EngineerTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsEngineer
-		response EngineerTauntHighFiveFail
-	}
-	rule EngineerTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsEngineer
-		response EngineerTauntHighFiveFailFull
-	}
-	rule EngineerHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsEngineer
-		response EngineerHighFiveReady
 	}
 
 	Response PlayerExpressionIdleEngineer
@@ -665,26 +540,6 @@
 	{
 		scene "scenes/player/medic/low/taunt07.vcd"
 	}
-	response "MedicTauntHighFiveSuccess"
-	{
-		scene "scenes/player/medic/low/taunt_highfiveSuccess.vcd"
-	}
-	response "MedicTauntHighFiveSuccessFull"
-	{
-		scene "scenes/player/medic/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "MedicTauntHighFiveFail"
-	{
-		scene "scenes/player/medic/low/taunt_HighFiveFail.vcd"
-	}
-	response "MedicTauntHighFiveFailFull"
-	{
-		scene "scenes/player/medic/low/taunt_HighFiveFailFull.vcd"
-	}
-	response "MedicHighFiveReady"
-	{
-		scene "scenes/player/medic/low/taunt_hifivestart.vcd"
-	}
 	response "MedicTauntKritzkrieg"
 	{
 		scene "scenes/player/medic/low/taunt06.vcd"
@@ -718,31 +573,6 @@
 	{
 		criteria ConceptPlayerTaunt IsMedic IsHalloweenTaunt
 		response MedicTauntHalloween
-	}
-	rule MedicTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsMedic
-		response MedicTauntHighFiveSuccess
-	}
-	rule MedicTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsMedic
-		response MedicTauntHighFiveSuccessFull
-	}
-	rule MedicTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsMedic
-		response MedicTauntHighFiveFail
-	}
-	rule MedicTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsMedic
-		response MedicTauntHighFiveFailFull
-	}
-	rule MedicHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsMedic
-		response MedicHighFiveReady
 	}
 	rule MedicTauntUbersaw
 	{
@@ -840,26 +670,6 @@
 	{
 		scene "scenes/player/soldier/low/taunt09.vcd"
 	}
-	response "SoldierTauntHighFiveSuccess"
-	{
-		scene "scenes/player/soldier/low/taunt_highfiveSuccess.vcd"
-	}
-	response "SoldierTauntHighFiveSuccessFull"
-	{
-		scene "scenes/player/soldier/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "SoldierTauntHighFiveFail"
-	{
-		scene "scenes/player/soldier/low/taunt_HiFiveFail.vcd"
-	}
-	response "SoldierTauntHighFiveFailFull"
-	{
-		scene "scenes/player/soldier/low/taunt_HiFiveFailFull.vcd"
-	}
-	response "SoldierHighFiveReady"
-	{
-		scene "scenes/player/soldier/low/taunt_hifivestart.vcd"
-	}
 	response "SoldierTauntPickaxe"
 	{
 		scene "scenes/player/soldier/low/taunt05.vcd"
@@ -898,31 +708,6 @@
 		criteria ConceptPlayerTaunt IsSoldier IsRobotCostume
 		response SoldierTauntRobot
 	}
-	rule SoldierTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsSoldier
-		response SoldierTauntHighFiveSuccess
-	}
-	rule SoldierTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsSoldier
-		response SoldierTauntHighFiveSuccessFull
-	}
-	rule SoldierTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsSoldier
-		response SoldierTauntHighFiveFail
-	}
-	rule SoldierTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsSoldier
-		response SoldierTauntHighFiveFailFull
-	}
-	rule SoldierHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsSoldier
-		response SoldierHighFiveReady
-	}
 	rule SoldierTauntEqualizer
 	{
 		criteria ConceptPlayerTaunt IsSoldier WeaponIsEqualizer
@@ -936,6 +721,11 @@
 	rule SoldierTauntDirectHit
 	{
 		criteria ConceptPlayerTaunt IsSoldier WeaponIsDirectHit
+		response SoldierTauntDirectHit
+	}
+	rule SoldierTauntBeggarsBazooka
+	{
+		criteria ConceptPlayerTaunt IsSoldier WeaponIsBeggarsBazooka
 		response SoldierTauntDirectHit
 	}
 	rule SoldierTauntBanner
@@ -1053,26 +843,6 @@
 	{
 		scene "scenes/player/scout/low/taunt06_v1.vcd"
 	}
-	response "ScoutTauntHighFiveSuccess"
-	{
-		scene "scenes/player/scout/low/taunt_highfiveSuccess.vcd"
-	}
-	response "ScoutTauntHighFiveSuccessFull"
-	{
-		scene "scenes/player/scout/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "ScoutTauntHighFiveFail"
-	{
-		scene "scenes/player/scout/low/taunt_HiFiveFail.vcd"
-	}
-	response "ScoutTauntHighFiveFailFull"
-	{
-		scene "scenes/player/scout/low/taunt_HiFiveFailFull.vcd"
-	}
-	response "ScoutHighFiveReady"
-	{
-		scene "scenes/player/scout/low/taunt_hifivestart.vcd"
-	}
 	response "ScoutTauntPlayerItem1"
 	{
 		scene "scenes/player/scout/low/taunt04_v1.vcd"
@@ -1164,31 +934,6 @@
 	{
 		criteria ConceptPlayerTaunt IsScout IsHalloweenTaunt
 		response ScoutTauntHalloween
-	}
-	rule ScoutTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsScout
-		response ScoutTauntHighFiveSuccess
-	}
-	rule ScoutTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsScout
-		response ScoutTauntHighFiveSuccessFull
-	}
-	rule ScoutTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsScout
-		response ScoutTauntHighFiveFail
-	}
-	rule ScoutTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsScout
-		response ScoutTauntHighFiveFailFull
-	}
-	rule ScoutHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsScout
-		response ScoutHighFiveReady
 	}
 	
 	Response PlayerExpressionIdleScout
@@ -1287,26 +1032,6 @@
 	{		
 		scene "scenes/player/sniper/low/taunt06.vcd"
 	}
-	response "SniperTauntHighFiveSuccess"
-	{		
-		scene "scenes/player/sniper/low/taunt_highfiveSuccess.vcd"
-	}
-	response "SniperTauntHighFiveSuccessFull"
-	{		
-		scene "scenes/player/sniper/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "SniperTauntHighFiveFail"
-	{		
-		scene "scenes/player/sniper/low/taunt_HiFiveFail.vcd"
-	}
-	response "SniperTauntHighFiveFailFull"
-	{		
-		scene "scenes/player/sniper/low/taunt_HiFiveFailFull.vcd"
-	}
-	response "SniperHighFiveReady"
-	{
-		scene "scenes/player/sniper/low/taunt_hifivestart.vcd"
-	}
 
 	rule SniperTauntPlayerPrimary
 	{
@@ -1333,11 +1058,6 @@
 		criteria ConceptPlayerTaunt IsSniper WeaponIsBow
 		response SniperTauntBow
 	}
-	rule SniperTauntPlayerFestiveBow
-	{
-		criteria ConceptPlayerTaunt IsSniper WeaponIsFestiveBow
-		response SniperTauntBow
-	}
 	rule SniperTauntHalloween
 	{
 		criteria ConceptPlayerTaunt IsSniper IsHalloweenTaunt
@@ -1347,31 +1067,6 @@
 	{
 		criteria ConceptPlayerTaunt IsSniper WeaponIsSaxxy
 		response SniperTauntSaxxy
-	}
-	rule SniperTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsSniper
-		response SniperTauntHighFiveSuccess
-	}
-	rule SniperTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsSniper
-		response SniperTauntHighFiveSuccessFull
-	}
-	rule SniperTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsSniper
-		response SniperTauntHighFiveFail
-	}
-	rule SniperTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsSniper
-		response SniperTauntHighFiveFailFull
-	}
-	rule SniperHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsSniper
-		response SniperHighFiveReady
 	}
 	
 	Response PlayerExpressionIdleSniper
@@ -1453,26 +1148,6 @@
 	{
 		scene "scenes/player/spy/low/taunt06.vcd"
 	}
-	response "SpyTauntHighFiveSuccess"
-	{
-		scene "scenes/player/spy/low/taunt_highfiveSuccess.vcd"
-	}
-	response "SpyTauntHighFiveSuccessFull"
-	{
-		scene "scenes/player/spy/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "SpyTauntHighFiveFail"
-	{
-		scene "scenes/player/spy/low/taunt_HiFiveFail.vcd"
-	}
-	response "SpyTauntHighFiveFailFull"
-	{
-		scene "scenes/player/spy/low/taunt_HiFiveFailFull.vcd"
-	}
-	response "SpyHighFiveReady"
-	{
-		scene "scenes/player/spy/low/taunt_hifivestart.vcd"
-	}
 
 	rule SpyTauntPlayerPrimary
 	{
@@ -1498,31 +1173,6 @@
 	{
 		criteria ConceptPlayerTaunt IsSpy IsHalloweenTaunt
 		response SpyTauntHalloween
-	}
-	rule SpyTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsSpy
-		response SpyTauntHighFiveSuccess
-	}
-	rule SpyTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsSpy
-		response SpyTauntHighFiveSuccessFull
-	}
-	rule SpyTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsSpy
-		response SpyTauntHighFiveFail
-	}
-	rule SpyTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsSpy
-		response SpyTauntHighFiveFailFull
-	}
-	rule SpyHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsSpy
-		response SpyHighFiveReady
 	}
 	rule SpyTauntSharpDresser
 	{
@@ -1592,26 +1242,6 @@
 	{
 		scene "scenes/player/demoman/low/taunt11.vcd"
 	}
-	response "DemomanTauntHighFiveSuccess"
-	{
-		scene "scenes/player/demoman/low/taunt_highfiveSuccess.vcd"
-	}
-	response "DemomanTauntHighFiveSuccessFull"
-	{
-		scene "scenes/player/demoman/low/taunt_highfiveSuccessFull.vcd"
-	}
-	response "DemomanTauntHighFiveFail"
-	{
-		scene "scenes/player/demoman/low/taunt_HiFiveFail.vcd"
-	}
-	response "DemomanTauntHighFiveFailFull"
-	{
-		scene "scenes/player/demoman/low/taunt_HiFiveFailFull.vcd"
-	}
-	response "DemomanHighFiveReady"
-	{
-		scene "scenes/player/demoman/low/taunt_hifivestart.vcd"
-	}
 	response "DemomanTauntDefender"
 	{
 		scene "scenes/player/demoman/low/taunt08.vcd"
@@ -1649,6 +1279,11 @@
 		ApplyContext "NotSober:1:10" // Apply the drunk context here
 		response DemomanTauntMelee
 	}
+	rule DemomanTauntPlayerScotsmansSkullcutter
+	{
+		criteria ConceptPlayerTaunt IsDemoman WeaponIsScotsmansSkullcutter
+		response DemomanTauntSecondary
+	}
 	rule DemomanTauntHalloween
 	{
 		criteria ConceptPlayerTaunt IsDemoman IsHalloweenTaunt
@@ -1658,31 +1293,6 @@
 	{
 		criteria ConceptPlayerTaunt IsDemoman IsDemowolf
 		response DemomanTauntWolfHowl
-	}
-	rule DemomanTauntHighFiveSuccess
-	{
-		criteria ConceptHighFiveSuccess IsDemoman
-		response DemomanTauntHighFiveSuccess
-	}
-	rule DemomanTauntHighFiveSuccessFull
-	{
-		criteria ConceptHighFiveSuccessFull IsDemoman
-		response DemomanTauntHighFiveSuccessFull
-	}
-	rule DemomanTauntHighFiveFail
-	{
-		criteria ConceptHighFiveFail IsDemoman
-		response DemomanTauntHighFiveFail
-	}
-	rule DemomanTauntHighFiveFailFull
-	{
-		criteria ConceptHighFiveFailFull IsDemoman
-		response DemomanTauntHighFiveFailFull
-	}
-	rule DemomanHighFiveReady
-	{
-		criteria ConceptHighFiveReady IsDemoman
-		response DemomanHighFiveReady
 	}
 
 	rule DemomanTauntSword
@@ -2223,4 +1833,62 @@
 		criteria ConceptTauntGuitarRiff IsSpy
 		response SpyTauntGuitarRiff
 	}
+
+
+// APRIL FOOLS RESPONSE RULES
+
+	rule ScoutTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsScout
+		response ScoutTauntLaugh
+	}
+
+	rule SoldierTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsSoldier
+		response SoldierTauntLaugh
+	}
+
+	rule PyroTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsPyro
+		response PyroTauntLaugh
+	}
+
+	rule DemomanTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsDemoman
+		response DemomanTauntLaugh
+	}
+
+	rule HeavyTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsHeavy
+		response HeavyTauntLaugh
+	}
+
+	rule EngineerTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsEngineer
+		response EngineerTauntLaugh
+	}
+
+	rule MedicTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsMedic
+		response MedicTauntLaugh
+	}
+
+	rule SniperTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsSniper
+		response SniperTauntLaugh
+	}
+
+	rule SpyTauntAprilFools
+	{
+		criteria ConceptPlayerTaunt IsAprilFoolsTaunt IsSpy
+		response SpyTauntLaugh
+	}
+
 //============================================================================================================

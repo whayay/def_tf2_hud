@@ -370,6 +370,20 @@ Rule EngyCritsReady2
 	Response EngyCritsReady
 }
 
+Rule EngyCritsReadyFestive
+{
+	criteria ConceptLostObject IsSentryGun IsEngineer IsMiniSentryKill WeaponIsFestiveFrontierJustice EngineerNotKillSpeech
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response EngyCritsReady
+}
+
+Rule EngyCritsReady2Festive
+{
+	criteria ConceptLostObject IsSentryGun IsEngineer IsSentryKill WeaponIsFestiveFrontierJustice EngineerNotKillSpeech
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response EngyCritsReady
+}
+
 
 // Check if mini sentry has had a kill in the past thirty seconds
 Rule MiniSentryKill

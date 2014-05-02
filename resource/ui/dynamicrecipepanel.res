@@ -61,25 +61,7 @@
 				"allow_rot"				"0"
 			}
 			
-			"namelabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"namelabel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"50"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%itemname%"
-				"textAlignment"	"south"
-				"fgcolor"		"235 226 202 255"
-				"wrap"			"1"
-				"centerwrap"	"1"
-			}
+
 		}
 		
 	
@@ -126,7 +108,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"ItemFontNameLarge"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -152,7 +134,7 @@
 			"xpos"			"0"
 			"ypos"			"35"
 			"zpos"			"1"
-			"wide"			"200"
+			"wide"			"f0"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -170,7 +152,7 @@
 			"xpos"			"0"
 			"ypos"			"238"
 			"zpos"			"1"
-			"wide"			"200"
+			"wide"			"f0"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -318,6 +300,27 @@
 			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
+		}
+
+		"UntradableCheckBox"
+		{
+			"ControlName"	"CheckButton"
+			"fieldName"		"UntradableCheckBox"
+			"labelText"		"#Dynamic_Recipe_Untradable_Checkbox"
+			"Font"			"HudFontSmallestBold"
+			"textAlignment"	"west"
+			"xpos"			"-4"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"280"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"fgcolor"		"200 187 161 255"
 		}
 
 		"BackpackItems"

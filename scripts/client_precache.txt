@@ -36,6 +36,8 @@ precache
 	"scriptsound"	"Announcer.SecurityAlert"
 	"scriptsound"	"Game.HappyBirthdayNoiseMaker"
 	"scriptsound"	"MVM.BombWarning"
+	"scriptsound"	"Octopus.StepCommon"
+	"scriptsound"	"Halloween.Merasmus_TP_In"
 
 	"model"			"sprites/white.vmt"
 	"model"			"sprites/physbeam.vmt"

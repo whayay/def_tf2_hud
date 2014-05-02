@@ -3873,3 +3873,21 @@
 		"wave"		"\weapons\knife_open7.wav"
 	}
 }
+
+// Econ item related
+
+"Octopus.StepCommon"
+{
+	"soundlevel"		"SNDLVL_96dB"
+	"pitch"				"95,105"
+	"volume"			".8"
+	"rndwave"
+	{
+		"wave"		"misc/octosteps/octosteps_01.wav"
+		"wave"		"misc/octosteps/octosteps_02.wav"
+		"wave"		"misc/octosteps/octosteps_03.wav"
+		"wave"		"misc/octosteps/octosteps_04.wav"
+		"wave"		"misc/octosteps/octosteps_05.wav"
+		"wave"		"misc/octosteps/octosteps_06.wav"
+	}
+}

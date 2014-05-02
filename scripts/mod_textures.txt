@@ -1561,6 +1561,7 @@
 			"width"		"128"
 			"height"	"128"
 		}
+
 	
 		"obj_status_tele_entrance"
 		{
@@ -1793,6 +1794,25 @@
 		"leaderboard_dominated"
 		{
 			"file"		"hud/leaderboard_dominated"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}	
+		
+		"leaderboard_streak"
+		{
+			"file"		"hud/leaderboard_streak"
+			"negfile"	"HUD/dneg_leaderboard_streak"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}	
+		
+		"leaderboard_streak_dneg"
+		{
+			"file"		"hud/dneg_leaderboard_streak"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"
@@ -2866,6 +2886,114 @@
 				"x"		"256"
 				"y"		"480"
 				"width"		"128"
+				"height"	"32"
+		}
+		"spellbook_teleport"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"192"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_skeleton"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"224"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_mirv"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"256"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_meteor"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"288"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_lightning"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"320"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_fireball"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"352"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_boss"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"384"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_blastjump"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"416"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_bats"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"448"
+				"width"		"64"
+				"height"	"32"
+		}
+		"spellbook_athletic"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"480"
+				"width"		"64"
+				"height"	"32"
+		}
+		"golden_fryingpan"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"96"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"australium"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"512"
+				"width"		"64"
 				"height"	"32"
 		}
 	}

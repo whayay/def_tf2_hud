@@ -516,6 +516,14 @@ Rule KilledPlayerMeleeFishScout
 	Response KilledPlayerMeleeGenericScout
 }
 
+Rule KilledPlayerMeleeFestiveFishScout
+{
+	criteria ConceptKilledPlayer KilledPlayerDelay 30PercentChance  IsWeaponMelee WeaponIsFestiveHolyMackerel ScoutNotKillSpeechMelee IsScout
+	ApplyContext "ScoutKillSpeechMelee:1:10"
+	Response KilledPlayerMeleeFishScout
+	Response KilledPlayerMeleeGenericScout
+}
+
 // A rule for the Scout Gunbai
 // it will share with the Fish as getting killed by this must be very humiliating
 // even moreso than the Fish

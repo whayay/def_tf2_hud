@@ -142,6 +142,10 @@
 		{
 			"image"		"../console/title_team_halloween2012"
 		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -1105,21 +1109,22 @@
 		}
 	}
 
-	"ReplayBrowserButton"
+	"SteamWorkshopButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"c-285"
+		"fieldname"		"SteamWorkshopButton"
+		"xpos"			"c-160"
 		"ypos"			"326"
 		"zpos"			"11"
-		"wide"			"130"
+		"wide"			"135"
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-		"navUp"			"CharacterSetupButton"
-		"navDown"		"QuitButton"
-		"navRight"		"SteamWorkshopButton"
+		"navUp"			"GeneralStoreButton"
+		"navDown"		"VRModeButton"
+		"navLeft"		"ReplayBrowserButton"
+		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
 		"SubButton"
@@ -1171,22 +1176,88 @@
 		}
 	}
 
-	"SteamWorkshopButton"
+	"VRModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"c-160"
-		"ypos"			"326"
+		"fieldname"		"VRModeButton"
+		"xpos"			"c-285"
+		"ypos"			"379"
 		"zpos"			"11"
-		"wide"			"135"
+		"wide"			"270"
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-		"navUp"			"GeneralStoreButton"
+		"navUp"			"ReplayBrowserButton"
 		"navDown"		"QuitButton"
-		"navLeft"		"ReplayBrowserButton"
 		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"250"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}
+
+
+	"ReplayBrowserButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReplayBrowserButton"
+		"xpos"			"c-285"
+		"ypos"			"326"
+		"zpos"			"11"
+		"wide"			"130"
+		"tall"			"36"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+
+		"navUp"			"CharacterSetupButton"
+		"navDown"		"VRModeButton"
+		"navRight"		"SteamWorkshopButton"
 		"navToRelay"	"SubButton"
 
 		"SubButton"
@@ -1447,6 +1518,20 @@
 		"fgcolor_override"	"235 227 203 255"
 	}
 	
+	"VRBGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"VRBGPanel"
+		"xpos"			"c-290"
+		"ypos"			"373"
+		"zpos"			"-1"
+		"wide"			"260"
+		"tall"			"38"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+	}
+
 	"ShowPromoCodesButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2211,7 +2296,7 @@
 		"default"		"1"
 		"Command"		"view_newuser_forums"
 
-		"navUp"			"SteamWorkshopButton"
+		"navUp"			"VRModeButton"
 		"navLeft"		"QuitButton"
 		"navRight"		"AchievementsButton"
 
@@ -2258,7 +2343,7 @@
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
 
-		"navUp"			"SteamWorkshopButton"
+		"navUp"			"VRModeButton"
 		"navLeft"		"NewUserForumsButton"
 		"navRight"		"CommentaryButton"
 
@@ -2305,7 +2390,7 @@
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
 
-		"navUp"			"SteamWorkshopButton"
+		"navUp"			"VRModeButton"
 		"navLeft"		"AchievementsButton"
 		"navRight"		"CoachPlayersButton"
 
@@ -2352,7 +2437,7 @@
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
 
-		"navUp"			"SteamWorkshopButton"
+		"navUp"			"VRModeButton"
 		"navLeft"		"CommentaryButton"
 		"navRight"		"ReportBugButton"
 
@@ -2399,7 +2484,7 @@
 		"default"		"1"
 		"Command"		"engine bug"
 
-		"navUp"			"SteamWorkshopButton"
+		"navUp"			"VRModeButton"
 		"navLeft"		"CoachPlayersButton"
 		"navRight"		"SettingsButton"
 
@@ -2542,7 +2627,7 @@
 		"default"		"1"
 		"Command"		"engine replay_confirmquit"
 
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"VRModeButton"
 		"navDown"		"DisconnectButton"
 		"navLeft"		"DisconnectButton"
 		"navRight"		"NewUserForumsButton"

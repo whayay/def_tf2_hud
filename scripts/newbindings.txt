@@ -51,4 +51,8 @@
 	{
 		"ideal_key"				"mouse3"
 	}
+	"vr_toggle"
+	{
+		"ideal_key"				"F9"
+	}
 }
