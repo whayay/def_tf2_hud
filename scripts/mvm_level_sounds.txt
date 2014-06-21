@@ -2788,6 +2788,25 @@
 }
 
 // ------------------------------------------------------------------------------------ //
+// CLASSIC SNIPER RIFLE
+// ------------------------------------------------------------------------------------ //
+"Weapon_ClassicSniperRifle.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/sniper_rifle_classic_shoot.wav"
+}
+
+"Weapon_ClassicSniperRifle.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/sniper_rifle_classic_shoot_crit.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
 // SNIPER RIFLE
 // ------------------------------------------------------------------------------------ //
 "Weapon_SniperRifle.Single"

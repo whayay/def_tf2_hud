@@ -692,6 +692,22 @@
 	"wave"		"player/taunt_pistol_twirl.wav"
 }
 
+"Taunt.Engineer_Western_Shoot1"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1,0"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		")player/taunt_western_shoot1.wav"
+}
+
+"Taunt.Engineer_Western_Shoot2"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		")player/taunt_western_shoot2.wav"
+}
+
 "Selection.EngineerWrenchShoulder"
 {
 	"channel"	"CHAN_STATIC"
@@ -836,6 +852,14 @@
 	"wave"		"player/taunt_shake_it.wav"
 }
 
+"Taunt.Demo_Burp"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"		")player/taunt_burp.wav"
+}
+
 "Taunt.MedicGloveStretch"
 {
 	"channel"	"CHAN_STATIC"
@@ -843,6 +867,60 @@
 	"soundlevel"  	"SNDLVL_75dB"
 
 		"wave"	"player/taunt_rubberglove_stretch.wav"
+}
+
+"Taunt.MedicHardClap1"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".75"
+	"soundlevel"  	"SNDLVL_75dB"
+
+		"wave"	")player/taunt_hard_clap1.wav"
+}
+
+"Taunt.MedicHardClap2"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".75"
+	"soundlevel"  	"SNDLVL_75dB"
+
+		"wave"	")player/taunt_hard_clap2.wav"
+}
+
+"Taunt.MedicHardClap3"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".75"
+	"soundlevel"  	"SNDLVL_75dB"
+
+		"wave"	")player/taunt_hard_clap3.wav"
+}
+
+"Taunt.MedicHardClap4"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".25"
+	"soundlevel"  	"SNDLVL_75dB"
+
+		"wave"	")player/taunt_hard_clap1.wav"
+}
+
+"Taunt.MedicHardClap5"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".15"
+	"soundlevel"  	"SNDLVL_75dB"
+
+		"wave"	")player/taunt_hard_clap2.wav"
+}
+
+"Taunt.MedicHardClap6"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".05"
+	"soundlevel"  	"SNDLVL_75dB"
+
+		"wave"	")player/taunt_hard_clap3.wav"
 }
 
 "Taunt.MedicGloveSnap"
@@ -2178,4 +2256,40 @@
 	"volume"		"0.2"
 	"pitch"			"PITCH_NORM"
 	"wave"			"misc/halloween/hwn_bomb_flash.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// SFX for new taunt update 2014
+// ------------------------------------------------------------------------------------ //
+
+"Player.taunt_flipFX"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"PITCH_NORM"
+	"wave"			"player/taunt_sfx_flip_01.wav"
+}
+
+"taunt.single_bell"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"PITCH_NORM"
+	"wave"			"player/taunt_sfx_bell_single.wav"
+}
+
+"taunt.dbl_bell"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"PITCH_NORM"
+	"wave"			"player/taunt_bell.wav"
+}
+
+"taunt.hawk"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"PITCH_NORM"
+	"wave"			"player/sniper_taunt_hawk.wav"
 }

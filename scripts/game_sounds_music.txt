@@ -248,15 +248,44 @@
 "music.fortress_reel"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"		"SNDLVL_NONE"
+	"soundlevel"		"SNDLVL_110dB"
 	"volume"		"1.0"
-	"wave"		"#*music/fortress_reel.wav"
+	"wave"		")*music/fortress_reel.wav"
+}
+"music.fortress_reel_intro"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"1.0"
+	"wave"		")*music/fortress_reel_intro.wav"
 }
 "music.fortress_reel_loop"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"		"SNDLVL_NONE"
+	"soundlevel"		"SNDLVL_90dB"
 	"volume"		"1.0"
-	"wave"		"#*music/fortress_reel_loop.wav"
+	"wave"		")*music/fortress_reel_loop.wav"
+}
+"music.fortress_reel_intro2"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"1.0"
+	"wave"		")*music/fortress_reel_intro2.wav"
 }
 
+"music.fortress_reel_loop2"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"1.0"
+	"wave"		")*music/fortress_reel_loop2.wav"
+}
+
+"music.conga_loop"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "volume" 			"SNDLVL_90dB"
+	 "volume"		    "1.0"
+	 "wave" 			  ")*music/conga_sketch_167bpm_01-04.wav"
+}

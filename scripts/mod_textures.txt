@@ -2996,5 +2996,103 @@
 				"width"		"64"
 				"height"	"32"
 		}
+		"eureka_teleport_home"
+		{
+			"file"	"HUD/eng_eureka_tele_home"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"hud_taunt_menu_icon"
+		{
+			"file"		"hud/ico_reel"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"256"
+		}
+
+		"hud_spy_disguise_menu_icon"
+		{
+			"file"		"hud/ico_spy"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"256"
+		}
+
+		"hud_taunt_hint"
+		{
+			"file"		"effects/speech_taunt"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"256"
+		}
+
+		"ico_notify_partner_taunt"
+		{
+			"file"		"effects/speech_taunt_bad"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"256"
+		}
+		"the_classic"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"256"
+				"y"		"577"
+				"width"		"128"
+				"height"	"32"
+		}
+		"tide_turner"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"545"
+				"width"		"64"
+				"height"	"32"
+		}
+		"bread_bite"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"577"
+				"width"		"64"
+				"height"	"32"
+		}
+		"snack_attack"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"256"
+				"y"		"608"
+				"width"		"128"
+				"height"	"32"
+		}
+		"back_scatter"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"256"
+				"y"		"512"
+				"width"		"128"
+				"height"	"32"
+		}
+		"airstrike"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"256"
+				"y"		"545"
+				"width"		"128"
+				"height"	"32"
+		}
 	}
 }

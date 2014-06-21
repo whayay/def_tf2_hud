@@ -127,6 +127,12 @@ Rule SniperKillSoldier
 	ApplyContext "SniperKillSpeech:1:10"
 	Response SniperKillSoldier
 }
+Rule SniperKillSoldierClassic
+{
+	criteria ConceptKilledPlayer IsSniper WeaponIsClassicSniperrifle 50PercentChance IsVictimSoldier SniperNotKillSpeech
+	ApplyContext "SniperKillSpeech:1:10"
+	Response SniperKillSoldier
+}
 Rule SniperKillSoldierBow
 {
 	criteria ConceptKilledPlayer IsSniper WeaponIsBow 50PercentChance IsVictimSoldier SniperNotKillSpeech
@@ -147,6 +153,12 @@ Rule SniperHeadShotKillSoldier
 	ApplyContext "SniperKillSpeech:1:10"
 	Response SniperHeadShotKillSoldier
 }
+Rule SniperHeadShotKillSoldierClassic
+{
+	criteria ConceptKilledPlayer IsSniper WeaponIsClassicSniperrifle IsHeadShot 50PercentChance IsVictimSoldier SniperNotKillSpeech
+	ApplyContext "SniperKillSpeech:1:10"
+	Response SniperHeadShotKillSoldier
+}
 
 // Same for the Heavy
 
@@ -157,6 +169,12 @@ Response SniperKillHeavy
 Rule SniperKillHeavy
 {
 	criteria ConceptKilledPlayer IsSniper WeaponIsSniperRifle 50PercentChance IsVictimHeavy SniperNotKillSpeech
+	ApplyContext "SniperKillSpeech:1:10"
+	Response SniperKillHeavy
+}
+Rule SniperKillHeavyClassic
+{
+	criteria ConceptKilledPlayer IsSniper WeaponIsClassicSniperrifle 50PercentChance IsVictimHeavy SniperNotKillSpeech
 	ApplyContext "SniperKillSpeech:1:10"
 	Response SniperKillHeavy
 }
@@ -174,6 +192,12 @@ Response SniperHeadShotKillHeavy
 Rule SniperHeadShotKillHeavy
 {
 	criteria ConceptKilledPlayer IsSniper WeaponIsSniperrifle IsHeadShot 50PercentChance IsVictimHeavy SniperNotKillSpeech
+	ApplyContext "SniperKillSpeech:1:10"
+	Response SniperHeadShotKillHeavy
+}
+Rule SniperHeadShotKillHeavyClassic
+{
+	criteria ConceptKilledPlayer IsSniper WeaponIsClassicSniperrifle IsHeadShot 50PercentChance IsVictimHeavy SniperNotKillSpeech
 	ApplyContext "SniperKillSpeech:1:10"
 	Response SniperHeadShotKillHeavy
 }
@@ -208,7 +232,12 @@ Rule SniperHeadShotKillSpy
 	ApplyContext "SniperKillSpeech:1:10"
 	Response SniperHeadShotKillSpy
 }
-
+Rule SniperHeadShotKillSpyClassic
+{
+	criteria ConceptKilledPlayer IsSniper WeaponIsClassicSniperrifle IsHeadShot 50PercentChance IsVictimSpy SniperNotKillSpeech
+	ApplyContext "SniperKillSpeech:1:10"
+	Response SniperHeadShotKillSpy
+}
 
 //--------------------------------------------------------------------------------------------------------------
 // Auto Speech
@@ -1186,10 +1215,22 @@ Rule SniperKill
 	ApplyContext "SniperKillSpeech:1:10"
 	Response SniperKill
 }
+Rule SniperKillClassic
+{
+	criteria ConceptKilledPlayer IsSniper WeaponIsClassicSniperrifle 20PercentChance SniperNotKillSpeech
+	ApplyContext "SniperKillSpeech:1:10"
+	Response SniperKill
+}
 
 Rule SniperKillSoft
 {
 	criteria ConceptKilledPlayer IsSniper WeaponIsSniperrifle DeployedContext 20PercentChance SniperNotKillSpeech
+	ApplyContext "SniperKillSpeech:1:10"
+	Response SniperKillSoft
+}
+Rule SniperKillSoftClassic
+{
+	criteria ConceptKilledPlayer IsSniper WeaponIsClassicSniperrifle DeployedContext 20PercentChance SniperNotKillSpeech
 	ApplyContext "SniperKillSpeech:1:10"
 	Response SniperKillSoft
 }
@@ -1220,6 +1261,14 @@ Response SniperHeadShotKill
 Rule SniperHeadShotKill
 {
 	criteria ConceptKilledPlayer IsSniper WeaponIsSniperrifle IsHeadShot SniperNotKillSpeech
+	ApplyContext "SniperKillSpeech:1:20"
+	Response SniperHeadShotKill
+	Response SniperKillSoft
+	Response SniperKill
+}
+Rule SniperHeadShotKillClassic
+{
+	criteria ConceptKilledPlayer IsSniper WeaponIsClassicSniperrifle IsHeadShot SniperNotKillSpeech
 	ApplyContext "SniperKillSpeech:1:20"
 	Response SniperHeadShotKill
 	Response SniperKillSoft

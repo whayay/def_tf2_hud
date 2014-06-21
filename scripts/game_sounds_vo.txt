@@ -3426,6 +3426,7 @@
 	"wave"			"vo/taunts/demoman_Taunts15.wav"
 }
 
+
 "Demoman.Taunts16"
 {
 	"channel"		"CHAN_VOICE"
@@ -3435,6 +3436,17 @@
 	"soundlevel"	"SNDLVL_95dB"
 
 	"wave"			"vo/taunts/demoman_Taunts16.wav"
+}
+
+"Demoman.Taunts17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/taunts/demoman_Taunts17.wav"
 }
 
 "Demoman.Thanks01"
@@ -12507,6 +12519,21 @@
 	"soundlevel"	"SNDLVL_95dB"
 
 	"wave"			"vo/taunts/scout_Taunts18.wav"
+}
+
+"Scout.Taunts19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/taunts/scout_taunts19.wav"
+	"wave"			"vo/taunts/scout_taunts20.wav"
+	"wave"			"vo/taunts/scout_taunts21.wav"
+	"wave"			"vo/taunts/scout_taunts22.wav"
+
 }
 
 "Scout.Thanks01"
@@ -35661,6 +35688,521 @@
 
 
 //-----------------------------------------------------------------------------
+//New Spy Taunts
+//Spy BATCH 34
+//-----------------------------------------------------------------------------
+
+"spy_paulingkilltaunt01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_paulingkilltaunt01.wav"
+}
+
+"spy_paulingkilltaunt02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_paulingkilltaunt02.wav"
+}
+
+"spy_paulingkilltaunt03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_paulingkilltaunt03.wav"
+}
+
+"spy_rpscountgo01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountgo01.wav"
+}
+
+"spy_rpscountgo02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountgo02.wav"
+}
+
+"spy_rpscountgo03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountgo03.wav"
+}
+
+"spy_rpscountone01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountone01.wav"
+}
+
+"spy_rpscountpaper01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountpaper01.wav"
+}
+
+"spy_rpscountpaper02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountpaper02.wav"
+}
+
+"spy_rpscountrock01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountrock01.wav"
+}
+
+"spy_rpscountrock02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountrock02.wav"
+}
+
+"spy_rpscountscissor01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountscissor01.wav"
+}
+
+"spy_rpscountscissor02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountscissor02.wav"
+}
+
+"spy_rpscountthree01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscountthree01.wav"
+}
+
+"spy_rpscounttwo01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpscounttwo01.wav"
+}
+
+"spy_rpshold01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpshold01.wav"
+}
+
+"spy_rpslose01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpslose01.wav"
+}
+
+"spy_rpslose02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpslose02.wav"
+}
+
+"spy_rpspaperwin01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpspaperwin01.wav"
+}
+
+"spy_rpspaperwin02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpspaperwin02.wav"
+}
+
+"spy_rpspaperwin03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpspaperwin03.wav"
+}
+
+"spy_rpsregretpaper01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpsregretpaper01.wav"
+}
+
+"spy_rpsregretrock01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpsregretrock01.wav"
+}
+
+"spy_rpsregretscissor01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpsregretscissor01.wav"
+}
+
+"spy_rpsrockwin01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpsrockwin01.wav"
+}
+
+"spy_rpsscissorwin01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpsscissorwin01.wav"
+}
+
+"spy_rpsstart01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpsstart01.wav"
+}
+
+"spy_rpstie01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpstie01.wav"
+}
+
+"spy_rpswin01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpswin01.wav"
+}
+
+"spy_rpswin02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_rpswin02.wav"
+}
+
+"spy_stabtaunt01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt01.wav"
+}
+
+"spy_stabtaunt02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt02.wav"
+}
+
+"spy_stabtaunt03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt03.wav"
+}
+
+"spy_stabtaunt04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt04.wav"
+}
+
+"spy_stabtaunt05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt05.wav"
+}
+
+"spy_stabtaunt06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt06.wav"
+}
+
+"spy_stabtaunt07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt07.wav"
+}
+
+"spy_stabtaunt08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt08.wav"
+}
+
+"spy_stabtaunt09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt09.wav"
+}
+
+"spy_stabtaunt10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt10.wav"
+}
+
+"spy_stabtaunt11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt11.wav"
+}
+
+"spy_stabtaunt12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt12.wav"
+}
+
+"spy_stabtaunt13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt13.wav"
+}
+
+"spy_stabtaunt14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt14.wav"
+}
+
+"spy_stabtaunt15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt15.wav"
+}
+
+"spy_stabtaunt16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_stabtaunt16.wav"
+}
+
+"spy_tietaunt01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt01.wav"
+}
+
+"spy_tietaunt02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt02.wav"
+}
+
+"spy_tietaunt03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt03.wav"
+}
+
+"spy_tietaunt04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt04.wav"
+}
+
+"spy_tietaunt05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt05.wav"
+}
+
+"spy_tietaunt06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt06.wav"
+}
+
+"spy_tietaunt07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt07.wav"
+}
+
+"spy_tietaunt08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt08.wav"
+}
+
+"spy_tietaunt09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/spy_tietaunt09.wav"
+}
+
+
+//-----------------------------------------------------------------------------
+//End of Spy BATCH 34
+//-----------------------------------------------------------------------------
+
+
+"heavy_russian_taunt"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/taunts/heavy_taunt_russian.wav"
+}
+
+//-----------------------------------------------------------------------------
 // Begin Announcer KillStreak
 //-----------------------------------------------------------------------------
 "Announcer.KillStreak_Level1"
@@ -44526,3 +45068,9 @@
 //End of Bombinomicon & Mann Brothers Manually added for Halloween 2013
 //-----------------------------------------------------------------------------
 
+//-----------------------------------------------------------------------------
+//spy batch 52
+//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
+//end of spy batch 52
+//-----------------------------------------------------------------------------

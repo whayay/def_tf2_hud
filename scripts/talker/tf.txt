@@ -499,7 +499,7 @@
 	}
 	Rule EngineerTauntEurekaEffect
 	{
-		criteria ConceptPlayerTaunt IsEngineer WeaponIsEurekaEffect
+		criteria ConceptTauntEurekaTeleport IsEngineer WeaponIsEurekaEffect
 		response EngineerTauntEurekaEffect
 	}
 
@@ -802,7 +802,11 @@
 		criteria ConceptFireWeapon IsSoldier
 		Response PlayerExpressionAttackSoldier
 	}
-	
+	rule SoldierTauntPlayerAirStrike
+	{
+		criteria ConceptPlayerTaunt IsSoldier WeaponIsRocketLauncherAirStrike
+		response SoldierTauntPrimary
+	}
 //============================================================================================================
 
 
@@ -971,7 +975,11 @@
 		ApplyContext "ScoutFired:1:7" // Apply the ScoutFired context, to allow Scouts to say double jump lines
 		Response PlayerExpressionAttackScout
 	}
-	
+	rule ScoutTauntMutatedMilk
+	{
+		criteria ConceptPlayerTaunt IsScout WeaponIsMutatedMilk
+		response ScoutTauntSecondary
+	}
 	//--------------------------------------------------------------------------------------------------------------
 	// Auto Speech Drink
 	//--------------------------------------------------------------------------------------------------------------
@@ -1038,6 +1046,11 @@
 		criteria ConceptPlayerTaunt IsSniper WeaponIsSniperrifle
 		response SniperTauntPrimary
 	}
+	rule SniperTauntPlayerPrimaryClassic
+	{
+		criteria ConceptPlayerTaunt IsSniper WeaponIsClassicSniperrifle
+		response SniperTauntPrimary
+	}
 	rule SniperTauntPlayerSecondary
 	{
 		criteria ConceptPlayerTaunt IsSniper WeaponIsSMG
@@ -1085,6 +1098,11 @@
 	rule PlayerExpressionIdleDeployedSniper
 	{
 		criteria ConceptPlayerExpression IsSniper DeployedContext WeaponIsSniperrifle
+		response PlayerExpressionIdleDeployedSniper
+	}
+	rule PlayerExpressionIdleDeployedSniperClassic
+	{
+		criteria ConceptPlayerExpression IsSniper DeployedContext WeaponIsClassicSniperrifle
 		response PlayerExpressionIdleDeployedSniper
 	}
 	Response PlayerExpressionIdleHurtSniper

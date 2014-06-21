@@ -2179,4 +2179,25 @@
 	"wave"			"ui/itemcrate_smash_ultrarare_fireworks.wav"
 }
 
+"Equipment.RocketPack_Activate"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")weapons/rocket_ll_shoot.wav"
+}
+"Parachute_open"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"			")items/para_open.wav"
+}
+"Parachute_close"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"			")items/para_close.wav"
+}
 

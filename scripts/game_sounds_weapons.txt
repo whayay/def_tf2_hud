@@ -2404,6 +2404,26 @@
 
 
 // ------------------------------------------------------------------------------------ //
+// Back Scatter
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_Back_Scatter.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/tf2_back_scatter.wav"
+}
+
+"Weapon_Back_Scatter.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/tf2_back_scatter_crit.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
 // SCATTER GUN
 // ------------------------------------------------------------------------------------ //
 
@@ -2781,6 +2801,26 @@
 	"volume"	"1.0"
 	"wave"		")weapons/sniper_sydneysleeper_shoot_crit.wav"
 }
+
+// ------------------------------------------------------------------------------------ //
+// CLASSIC SNIPER RIFLE
+// ------------------------------------------------------------------------------------ //
+"Weapon_ClassicSniperRifle.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/sniper_rifle_classic_shoot.wav"
+}
+
+"Weapon_ClassicSniperRifle.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/sniper_rifle_classic_shoot_crit.wav"
+}
+
 
 // ------------------------------------------------------------------------------------ //
 // SNIPER RIFLE
@@ -6455,4 +6495,228 @@
 	"pitch"			"PITCH_NORM"
 
 	"wave"	")weapons\medi_burn_lp.wav"
+}
+"Weapon_Airstrike.AltFire"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"		"1.0"
+	"pitch"			"95, 105"
+	"rndwave"
+	{
+			"wave"	")weapons/airstrike_fire_01.wav"
+			"wave"	")weapons/airstrike_fire_02.wav"
+			"wave"	")weapons/airstrike_fire_03.wav"
+	}
+}
+
+"Weapon_Airstrike.CritFire"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"		"1.0"
+	"pitch"			"95, 105"
+	"wave"			")weapons/airstrike_fire_crit.wav"
+}
+
+"Weapon_Airstrike.Fail"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1.0"
+	"wave"			"weapons/airstrike_fail.wav"
+}
+"Weapon_Airstrike.Explosion"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+			"wave"	")weapons/airstrike_small_explosion_01.wav"
+			"wave"	")weapons/airstrike_small_explosion_02.wav"
+			"wave"	")weapons/airstrike_small_explosion_03.wav"
+	}
+}
+
+// ------------------------------------------------------------------------------------ //
+// Bread Monster
+// ------------------------------------------------------------------------------------ //
+// Gloves
+"Weapon_bm_gloves.draw"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"0.5"
+	"pitch"		    "100"
+	"wave"			"weapons/breadmonster/gloves/bm_gloves_on.wav"
+}
+
+"Weapon_bm_gloves.snap"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_01.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_02.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_03.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_04.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_05.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_06.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_07.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_08.wav"
+	}
+}
+
+"Weapon_bm_gloves.scream"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/gloves/bm_gloves_scream_01.wav"
+			"wave"	"weapons/breadmonster/gloves/bm_gloves_scream_02.wav"
+	}
+}
+
+"Weapon_bm_gloves.attack"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/gloves/bm_gloves_attack_01.wav"
+			"wave"	"weapons/breadmonster/gloves/bm_gloves_attack_02.wav"
+			"wave"	"weapons/breadmonster/gloves/bm_gloves_attack_03.wav"
+			"wave"	"weapons/breadmonster/gloves/bm_gloves_attack_04.wav"
+	}
+}
+
+// Sapper
+"Weapon_bm_sapper.scream"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_scream_01.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_scream_02.wav"
+	}
+}
+"Weapon_bm_sapper.snap"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_01.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_02.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_03.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_04.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_05.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_06.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_07.wav"
+			"wave"	"weapons/breadmonster/sapper/bm_sapper_snap_08.wav"
+	}
+}
+
+//Throwable
+"Weapon_bm_throwable.throw"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")weapons/breadmonster/throwable/bm_throwable_throw.wav"
+}
+
+"Weapon_bm_throwable.smash"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_95dB"	
+	"wave"	")weapons/breadmonster/throwable/bm_throwable_smash.wav"
+}
+
+"Weapon_bm_throwable.growl"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_growl_01.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_growl_02.wav"
+	}
+}
+"Weapon_bm_throwable.grunt"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_grunt_01.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_grunt_02.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_grunt_03.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_grunt_04.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_grunt_05.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_grunt_06.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_grunt_07.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_grunt_08.wav"
+	}
+}
+
+"Weapon_bm_throwable.slosh"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.3"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"100"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_slosh_01.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_slosh_02.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_slosh_03.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_slosh_04.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_slosh_05.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_slosh_06.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_slosh_07.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_slosh_08.wav"
+	}
+}
+
+"Weapon_bm_throwable.attack"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"100"
+	"rndwave"
+	{
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_01.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_02.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_03.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_04.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_05.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_06.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_07.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_08.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_09.wav"
+			"wave"	"weapons/breadmonster/throwable/bm_throwable_attack_10.wav"
+	}
 }

@@ -15,4 +15,5 @@ game_sounds_manifest
 	"precache_file"  	"scripts/game_sounds_vo_mvm_handmade.txt"
 
 //	"precache_file" 	"scripts/mvm_level_sounds.txt"
+	"precache_file"  	"scripts/game_sounds_vo_taunts.txt"
 }

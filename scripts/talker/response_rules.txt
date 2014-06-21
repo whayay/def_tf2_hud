@@ -246,6 +246,7 @@ criterion "ConceptTauntLaugh" "Concept" "TLK_TAUNT_LAUGH" required
 criterion "ConceptTauntHeroicPose" "Concept" "TLK_TAUNT_HEROIC_POSE" required
 criterion "ConceptTauntPyroArmageddon" "Concept" "TLK_TAUNT_PYRO_ARMAGEDDON" required
 criterion "ConceptTauntGuitarRiff" "Concept" "TLK_TAUNT_GUITAR_RIFF" required
+criterion "ConceptTauntEurekaTeleport" "Concept" "TLK_TAUNT_EUREKA_EFFECT" required
 
 criterion "IsOnOffense" "teamrole" "offense" required
 criterion "IsOnDefense" "teamrole" "defense" required
@@ -492,6 +493,9 @@ criterion "WeaponIsLooseCannon" "item_name" "The Loose Cannon" "required" weight
 criterion "WeaponIsRescueRanger" "item_name" "The Rescue Ranger" "required" weight 10
 criterion "WeaponIsShortCircuit" "item_name" "The Short Circuit" "required" weight 10
 criterion "WeaponIsScotsmansSkullcutter" "item_name" "The Scotsman's Skullcutter" "required" weight 10
+criterion "WeaponIsClassicSniperrifle" "playerweapon" "tf_weapon_sniperrifle_classic" "required"
+criterion "WeaponIsRocketLauncherAirStrike" "playerweapon" "tf_weapon_rocketlauncher_airstrike" "required"
+criterion "WeaponIsMutatedMilk" "item_name" "Mutated Milk" "required" weight 10
 
 //Custom healed concept and critical hit
 criterion "IsBeingHealed" "beinghealed" "1" "required"
